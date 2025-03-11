@@ -7,3 +7,7 @@ elif BMI < 18.5:
     print ("your BMI is", BMI, "the perseon is underweight")
 else:
     print ("your BMI is", BMI ,"the person has a normal weight")
+
+    #assign the weight and height
+    #calculate BMI
+    #use if statements to divide the BMI range
