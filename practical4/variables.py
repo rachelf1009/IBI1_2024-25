@@ -11,7 +11,7 @@ elif c < f:
 else:
     print ("they're equal")
 
-X = 2%4 == 0
-Y = 2*2 == 8
+X = True
+Y = False
 W = X and Y
 print (W)
