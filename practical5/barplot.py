@@ -9,7 +9,8 @@ y = list(language.values())
 #define the width of the bar chart
 width = 0.5
 #plot the bar chart
-p1 = plt.bar(x,y,color = "red")
+plt.bar(x,y,color = ["thistle", "plum", "orchid", "m", "purple"])
+
 #label the name of x and y axis and the title
 plt.ylabel("Population")
 plt.title("language population") 
