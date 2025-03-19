@@ -12,8 +12,8 @@ width = 0.5
 plt.bar(x,y,color = ["thistle", "plum", "orchid", "m", "purple"])
 
 #label the name of x and y axis and the title
-plt.ylabel("Population")
 plt.title("language population") 
 plt.xlabel("language")
 
 plt.show()
+plt.ylabel("Population")
