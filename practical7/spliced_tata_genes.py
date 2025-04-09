@@ -30,10 +30,10 @@ for line in lines:
             sequence=re.findall(rf'{splice_donor}.+{splice_acceptor}',line)
             if re.search(r'TATA(A|T)A(A|T)',sequence[0]):
                 count=len(re.findall(r'TATA(A|T)A(A|T)',sequence[0]))
-                spliced_line.append([gene_name,count,sequence])
+                spliced_line.append([gene_name,count,line])
 
 
 for line in spliced_line:
-    output.write(line[0]+' tata_count:'+str(line[1])+'\n'+line[2][0]+'\n')
+    output.write(line[0]+' tata_count:'+str(line[1])+'\n'+line[2]+'\n')
 
 
