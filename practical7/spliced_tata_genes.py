@@ -23,8 +23,14 @@ delete_name=re.sub(r'\|\|','\n', add_space)
 spliced_line=[]
 lines = re.split(r'\n',delete_name)
 for line in lines:
+    if not line:
+        continue
     if line[0]=='>':
-        gene_name=line[0:8]
+         gene_name=re.findall(r'gene:(\S+)',line)
+         if gene_name:
+             gene_name=gene_name[0]
+         else:
+             continue     
     else:
         if re.search(rf'{splice_donor}.+{splice_acceptor}',line):
             sequence=re.findall(rf'{splice_donor}.+{splice_acceptor}',line)
