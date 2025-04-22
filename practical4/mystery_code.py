@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: to identify the progress turns needed when the first random number is equal to the second random number
+# Answer: To determine how many iterations are needed until two randomly generated numbers are equal.
 
 # Import libraries
 # randint allows drawing a random number,
