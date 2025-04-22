@@ -7,6 +7,10 @@ single_line=re.sub(r'\n(?=>)','||',inp)
 add_name=re.sub(r']\n','||',single_line)
 add_space=re.sub(r'\n','',add_name)
 delete_name=re.sub(r'\|\|','\n', add_space)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 816d1eb... delete pseudocode
 
 output_line=[]
 lines = re.split(r'\n',delete_name)
