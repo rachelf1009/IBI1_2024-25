@@ -1,6 +1,12 @@
 
 #create my own directory and input the data
 language = {"JavaScript":62.3, "HTML": 52.9, "Python": 51, "SQL":51, "TypeScript": 38.5}
+print(language)
+
+#define the query variable and print the corresponding output.
+input_language = "Python"  
+print(f"The percentage of developers using {input_language} is {language[input_language]}%")
+
 #begin to draw pictures
 import matplotlib.pyplot as plt
 #define x and y axis
@@ -14,6 +20,5 @@ plt.bar(x,y,color = ["thistle", "plum", "orchid", "m", "purple"])
 #label the name of x and y axis and the title
 plt.title("language population") 
 plt.xlabel("language")
-
-plt.show()
 plt.ylabel("Population")
+plt.show()
