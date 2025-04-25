@@ -37,7 +37,10 @@ plt.xticks(uk.Year,rotation=-90)
 plt.show()
 
 cn = dalys_data.loc[dalys_data.Entity=="China", ["DALYs", "Year"]]
-merged=pd.merge(cn, uk, on="Year", suffixes=('_cn', '_uk'))
-plt.plot(merged["Year"], merged["DALYs_cn"] - merged["DALYs_uk"], 'b+')
-plt.xticks(merged["Year"], rotation=-90)
+plt.plot(cn.Year, cn.DALYs, 'r-', label="China")
+plt.plot(uk.Year, uk.DALYs, 'b-', label="United Kingdom")
+plt.title("Comparison of DALYs Over Time: China vs UK")
+plt.xlabel("Year")
+plt.ylabel("DALYs")
+plt.legend()
 plt.show()
