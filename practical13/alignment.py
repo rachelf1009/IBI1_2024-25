@@ -1,4 +1,4 @@
-input1=open('/Users/xuqiufan/Desktop/IBI/IBI1_2024-25/practical13/P07895.fasta','r')
+input1=open('/Users/xuqiufan/Desktop/IBI/IBI1_2024-25/practical13/P09671.fasta','r')
 input2=open('/Users/xuqiufan/Desktop/IBI/IBI1_2024-25/practical13/P04179.fasta','r')
 input3=open('/Users/xuqiufan/Desktop/IBI/IBI1_2024-25/practical13/BLOSUM62.txt','r')
 input4=open('/Users/xuqiufan/Desktop/IBI/IBI1_2024-25/practical13/Random sequence.fasta','r')
@@ -59,12 +59,12 @@ seq1 = analysed_seq(input1)
 seq2 = analysed_seq(input2)
 seq3 = analysed_seq(input4) 
 
-print("Rat Seqence:", seq1)
+print("Mouse Seqence:", seq1)
 print("Human Seqence:", seq2)
 print("Random Sequence:", seq3)
 
-print("Score between Rat sequence and Human sequence:", compare_pro(seq1, seq2),'Identity between Rat sequence and Human sequence:',identity(seq1,seq2),'%')
-print("Score between Rat sequence and random sequence:", compare_pro(seq1, seq3),'Identity between Rat sequence and random sequence:',identity(seq1,seq3),'%')
+print("Score between Mouse sequence and Human sequence:", compare_pro(seq1, seq2),'Identity between Rat sequence and Human sequence:',identity(seq1,seq2),'%')
+print("Score between Mouse sequence and random sequence:", compare_pro(seq1, seq3),'Identity between Rat sequence and random sequence:',identity(seq1,seq3),'%')
 print("Score between Human sequence and random sequence:", compare_pro(seq2, seq3),'Identity between Human sequence and random sequence:',identity(seq2,seq3),'%')
 
 

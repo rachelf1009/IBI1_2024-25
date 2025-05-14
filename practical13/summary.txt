@@ -1,10 +1,13 @@
-The length of Human SOD2 sequence is 222AA and subcellular localisation is mitochondria.
+The length of Human SOD2 sequence is 222AA and subcellular localisation is mitochondrion matrix.
 
 
-The percentage identity of these alignments ranged from 83.3% to 100%.This suggests that 
+The percentage identity of these alignments ranged from 58.1% to 100%.This suggests that 
 SOD2 is a highly conserved protein across species
 The best alignment with the mouse SOD2 protein (UniProt ID: P09671) showed a 90.1% identity，indicating strong 
 evolutionary conservation between the two species
 
-According to the identity and alignment score, the rat SOD2 and human SOD2 sequences are most closely related
-compared to rat SOD2 and random sequence, and human SOD2 and random sequence.
+Score between Mouse sequence and Human sequence: 1097 Identity between Rat sequence and Human sequence: 90.09009009009009 %
+Score between Mouse sequence and random sequence: -245 Identity between Rat sequence and random sequence: 6.306306306306306 %
+Score between Human sequence and random sequence: -263 Identity between Human sequence and random sequence: 4.504504504504505 %
+According to the identity and alignment score, the Mouse SOD2 and human SOD2 sequences are most closely related
+compared to Mouse SOD2 and random sequence, and human SOD2 and random sequence.
