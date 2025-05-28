@@ -2,6 +2,5 @@ This is an example file for reflection in IBI1_2024-25.
 
 I learned some commands regarding github and successfully created my own git page, including my protfolio.
 
-
-That was quite impressive and interesting.
+That was quite impressive and interesting.It gave me a sense of achievement to see my work published online. I’m also more confident now in using version control tools for future projects.
  
