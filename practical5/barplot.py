@@ -4,8 +4,11 @@ language = {"JavaScript":62.3, "HTML": 52.9, "Python": 51, "SQL":51, "TypeScript
 print(language)
 
 #define the query variable and print the corresponding output.
-input_language = "Python"  
-print(f"The percentage of developers using {input_language} is {language[input_language]}%")
+input_language=input('Please enter the language you use:')
+if input_language in language:
+    print(f"The percentage of developers using {input_language} is {language[input_language]}%")
+else:
+    print(f"{input_language} is not in the dictionary")
 
 #begin to draw pictures
 import matplotlib.pyplot as plt
