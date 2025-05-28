@@ -1,0 +1,4 @@
+This practical was engaging and helped me understand how simple rules can model complex disease spread
+Building the basic SIR model and adding vaccination scenarios were straightforward and rewarding. 
+The spatial SIR model was more challenging due to handling neighbors and edge cases, but I learned a lot about structuring code and simulating local interactions. 
+Overall, this task improved my confidence in using Python for biological modeling.

@@ -10,7 +10,7 @@ R=0#recovery population that starts with zero
 
 
 #create new list that holds the initial data
-suspectible =[S]
+susceptible =[S]
 infected =[I]
 recovered=[R]
 
@@ -24,7 +24,7 @@ for i in range (1000):
     R+=R1 #new R equals to the recovered population
     S=N-I-R #new S equals to the total number N minus new I and new R
     #append the susceptible infected and recovered list
-    suspectible.append(S)
+    susceptible.append(S)
     infected.append(I)
     recovered.append(R)
 
@@ -32,7 +32,7 @@ for i in range (1000):
 #plot the figure and define the figure size
 plt.figure(figsize=(6,4),dpi=150)
 #respectively plot SIR list
-plt.plot(suspectible,label="susceptible")
+plt.plot(susceptible,label="susceptible")
 plt.plot(infected,label="infected")
 plt.plot(recovered,label="recovered")
 #define the labels and titles
