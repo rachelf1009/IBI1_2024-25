@@ -1,5 +1,9 @@
 seq='ATGCAAGTGGTGTGTCTGTTCTGAGAGGGCCTAA'
 import re
 a=re.findall(r'GT.+AG',seq)
-b=len(a[0])
-print('The intro sequence is',(a),'and the length is',b)
+if a:
+    longest = max(a, key=len)
+    print("The intron sequence is", longest, "and the length is", len(longest))
+else:
+    print("No intron found.")
+

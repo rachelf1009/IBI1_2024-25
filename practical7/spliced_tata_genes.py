@@ -40,6 +40,6 @@ for line in lines:
 
 
 for line in spliced_line:
-    output.write(line[0]+' tata_count:'+str(line[1])+'\n'+line[2]+'\n')
+    output.write('>'+line[0]+' tata_count:'+str(line[1])+'\n'+line[2]+'\n')
 
 
