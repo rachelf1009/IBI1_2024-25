@@ -13,7 +13,7 @@ def analysed_seq (seq):
 
 
 
-blosum63={}
+blosum62={}
 matrix=[]
 for line in input3:
     if not line.startswith('#') and line.strip():
@@ -28,7 +28,7 @@ for line in matrix[1:]:
     for i in range (len(aa_row)):
         aa2=aa_row[i]
         score=scores[i]
-        blosum63 [(aa1,aa2)]=int(score)
+        blosum62 [(aa1,aa2)]=int(score)
 
 
 def compare_pro(seq1, seq2):
@@ -36,8 +36,8 @@ def compare_pro(seq1, seq2):
     for i in range(len(seq1)):
         aa1=seq1[i]
         aa2=seq2[i]
-        if (aa1, aa2) in blosum63:
-            score = blosum63[(aa1, aa2)]
+        if (aa1, aa2) in blosum62:
+            score = blosum62[(aa1, aa2)]
         else:
             score=0
         total_score+=score   
