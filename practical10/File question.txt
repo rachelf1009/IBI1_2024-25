@@ -1,2 +1,7 @@
 How has the relationship between the DALYs in China and the UK changed over time?
 Are they becoming more similar, less similar?
+
+Code starts at line 42 in the Python script.
+
+Based on the plotted trends, DALYs in China have decreased more rapidly than those in the UK.
+This suggests that over time, the overall disease burden in China is becoming more similar to that in the UK.

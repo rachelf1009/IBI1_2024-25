@@ -34,6 +34,9 @@ if a< b:
 uk = dalys_data.loc[dalys_data.Entity=="United Kingdom", ["DALYs", "Year"]]
 plt.plot(uk.Year, uk.DALYs, 'b+')
 plt.xticks(uk.Year,rotation=-90)
+plt.xlabel("Year")
+plt.ylabel("DALYs")
+plt.title("DALYs in United Kingdom over Time")
 plt.show()
 
 cn = dalys_data.loc[dalys_data.Entity=="China", ["DALYs", "Year"]]
@@ -43,4 +46,5 @@ plt.title("Comparison of DALYs Over Time: China vs UK")
 plt.xlabel("Year")
 plt.ylabel("DALYs")
 plt.legend()
+plt.title("DALYs Over Time: China vs UK")
 plt.show()
